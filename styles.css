@@ -6,5 +6,6 @@ body {
 }
 
 .form {
-    float: right;
+    float: left;
+    font-size: large;
 }
