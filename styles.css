@@ -1,3 +1,6 @@
-.imag {
-    background-image: "ghananight .jpeg";
+body {
+    background-image: url(ghananight\ .jpeg);
+    background-color: bisque;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
