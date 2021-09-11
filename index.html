@@ -16,22 +16,33 @@
         <div id="container"></div>
         <div>
             <p>Fill in your details below correctly and click the chekout button.</p>
-            <form name="myForm" class="form" action="onsubmt">
+            <form name="myForm" class="form" action="onsubmt" onsubmit="return getAkanName()">
                 <label for="number">
-                        <input type="number" id="yearOfBirth" placeholder="year-of-birth/YY">
+                        <input type="number" id="yearOfBirth" placeholder="year-of-birth/YY" value="" required>
                 </label>
                 <br>
                 <label for="number">
-                    <input type="number" id="monthOfBirth" placeholder="month-of-birth/MM">
+                    <input type="number" id="monthOfBirth" placeholder="month-of-birth/MM" value="" required>
                 </label>
                 <br>
                 <label for="number">
-                    <input type="number" id="dateOfBirth" placeholder="date-of-birth/DD">
+                    <input type="number" id="dateOfBirth" placeholder="date-of-birth/DD" value="" required>
                 </label>
                 <br>
                 <button id="btn" type="submit">submit</button>
                 <br>
-                <button type="radial"></button>
+                <label for="gender">
+                    <p>Fill in your gender</p>
+                    male
+                    <input id="male" type="radio"name="gender" value="male" required>
+                    female
+                    <input id="female" type="radio" name="female" value="male" required>
+                </label>
+                <br>
+                <form id="myparagraph"></form>
+                <p>Akan naming is famouse in Ghana where the new born are given names based on there specifiv days of week that they were born <br> This naming style actually signifies the culture embression in ghana and there love for it. </p>
+
+
 
 
 
