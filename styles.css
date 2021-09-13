@@ -1,11 +1,24 @@
 body {
-    background-image: url(ghananight\ .jpeg);
+    background-image: url(download\ \(1\).jpeg);
     background-color: bisque;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .form {
+    float: center;
+    font-size: x-large;
+    text-decoration-color: burlywood;
+}
+
+#myparagraph {
+    background-color: bisque;
+    text-align: left;
     float: left;
-    font-size: large;
+    background-position: top;
+}
+
+#male {
+    font-family: fantasy;
+    color: burlywood;
 }
