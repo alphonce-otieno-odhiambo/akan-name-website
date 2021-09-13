@@ -16,7 +16,7 @@
         <div id="container"></div>
         <div>
             <p>Fill in your details below correctly and click the chekout button.</p>
-            <form name="myForm" class="form" action="onsubmt" onsubmit="return getAkanName()">
+            <form name="myForm" id="form" action="onsubmt" onsubmit="return getAkanName()">
                 <label for="number">
                         <input type="number" id="yearOfBirth" placeholder="year-of-birth/YY" value="" required>
                 </label>
@@ -29,50 +29,36 @@
                     <input type="number" id="dateOfBirth" placeholder="date-of-birth/DD" value="" required>
                 </label>
                 <br>
+                <form action="action">
+
+
+                    <p>Select your gender</p>
+                    male
+                    <input type="radio" name="gender" value="male" required> female
+                    <input type="radio" name="gender" value="female" required>
+
+                </form>
+                <br>
                 <button id="btn" type="submit">submit</button>
                 <br>
-                <label for="gender">
-                    <p>Fill in your gender</p>
-                    male
-                    <input id="male" type="radio"name="gender" value="male" required>
-                    female
-                    <input id="female" type="radio" name="female" value="male" required>
-                </label>
-                <br>
-                <form id="myparagraph"></form>
-                <p>Akan naming is famouse in Ghana<br> where the new born are given names <br>based on there specific days of week that they were born <br> This naming style, actually signifies the culture embression in Ghana<br> and their love for it. </p>
-                <p>This page gives you the opportunuty to feel the ghana's <em>Akan name practice</em>. To experience that follow the proceedure and get your akan name.</p>
-
-
-
-
-
-
 
 
             </form>
+            <br>
+            <form id="myparagraph">
+                <p>Akan naming is famouse in Ghana<br> where the new born are given names <br>based on there specific days of week that they were born <br> This naming style, actually signifies the culture embression in Ghana<br> and their love for it.
+                </p>
+                <p>This page gives you the opportunuty<br> to feel the ghana's <em>Akan name practice</em>.<br> To experience that follow the proceedure and get your akan name.</p>
+            </form>
+            </form>
+            <h5 id="display-names">your Akan name will be displayed below</h5>
 
-            <form action="box" class="aliform">
-                <div></div>
+            <div></div>
 
             </form>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <p id="results"></p>
     </section>
-
-
 </body>
 
 </html>
